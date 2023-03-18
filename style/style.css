@@ -1,0 +1,193 @@
+body {
+    background-color: #bdc2c8;
+    font-family: garamond;
+    background-position: center;
+    margin: 0px;
+}
+.top {
+    position: fixed;
+    background-color: #394f85;
+    color: aliceblue;
+    right: 0%;
+    left: 0%;
+    top: 0%;
+    z-index: 1;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.home {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+.buttonhome {
+    width: 30px;
+    height: 30px;
+    background-color: #394f85;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.header_right_container {
+    display: flex;
+    gap: 10px;
+}
+.blog {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+.about {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+.login {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+}
+.bottom {
+    position: relative;
+    background-color: #394f85;
+    color: aliceblue;
+
+    text-align: center;
+    z-index: 1;
+}
+.bot {
+    color: #394f85;
+}
+.botbutton {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.startend {
+    margin-block-start: auto;
+}
+.end {
+    color: black;
+    font-size: small;
+    margin-block-end: auto;
+}
+.center {
+    position:relative;
+    text-align: center;
+    background-color: aliceblue;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 100%;
+}
+.news {
+    float: left;
+    display: block;
+    width: 50%;
+    margin-left: 1%;
+    text-align: left;
+}
+.advertising {
+    height: 100px;
+    border-width: 1px;
+    border-color: black;
+    padding: 5px;
+    text-align: center;
+    border: 2px solid black;
+    background-color: #bdc2c8;
+}
+.authors {
+    float: left;
+    display: flex;
+    width: 30%;
+    margin-left: 10%;
+    margin-right: 5%;
+    flex-direction: column;
+}
+.avatar {
+    float: left;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    border: 2px solid blueviolet;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+.name {
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 15px;
+}
+.description {
+    color: #919ba7;
+    line-height: 0.9px;
+}
+.hashtag {
+    margin-right: 10%;
+    text-align: left;
+}
+.hashtags {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #bdc2c8;
+    border-radius: 10px;
+    float: left;
+    padding: 3px;
+    margin-right: 10px;
+    margin-bottom: 7px;
+    text-decoration: none;
+}
+.posts {
+    text-align: left;
+}
+.post {
+    background-color: #bdc2c8;
+    border-radius: 30px;
+    padding: 8px;
+    height: 100px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.imgnews {
+    display: flex;
+    border-radius: 10px;
+    width: 100%;
+}
+.blockaut {
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100%;
+
+}
+.imglogin {
+    width: 500px;
+    height: 500px;
+    float: left;
+    display: flex;
+    width: 30%;
+    margin-left: 20%;
+}
+.loging {
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 100px;
+}
+.notfound {
+    background-color: white;
+    color: black;
+    font-size: 4em;
+    font-family: Arial;
+    padding-bottom: 600px;
+}
